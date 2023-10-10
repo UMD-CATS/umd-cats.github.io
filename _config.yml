@@ -1,7 +1,6 @@
-name: Laxman Dhulipala
-email: ldhulipa@cs.cmu.edu
-url: http://ldhulipala.github.io
-#baseurl: /~laxman
+name: Kishen N Gowda
+email: kishen19@cs.umd.edu
+url: http://kishen19.github.io
 baseurl: ""
 
 markdown: kramdown

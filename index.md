@@ -1,63 +1,50 @@
 ---
 layout: default
-title: Laxman Dhulipala
-redirect_to: "https://cs.umd.edu/~laxman/"
+title: Capital Area Theory Seminar
+# redirect_to: "https://cs.umd.edu/~laxman/"
 ---
 
-I am an Assistant Professor in the Department of Computer Science at
-the University of Maryland, College Park, and a research scientist at
-Google Research with the [Graph Mining][gm] team.
+The Capital Area Theory Seminar (CATS) is a series of talks in 
+Theoretical Computer Science, organized at the department of Computer 
+Science, University of Maryland, College Park. 
 
-I obtained my Ph.D. from Carnegie Mellon University, where I was
-advised by [Guy Blelloch][guy], and was a postdoc at MIT working with
-[Julian Shun][julian].
+This semester, the seminar meets on Fridays from 10 am to 11 am at IRB 4105. 
+Please sign up for our [mailing list][theory-local] if you would like to 
+receive notifications (and Zoom meeting details) for the talks.
 
-I am broadly interested in efficient parallel algorithms, e.g., for
-parallel clustering and parallel graph processing. I am also
-interested in models of parallel computation motivated by emerging
-hardware and exploring these models theoretically and practically.
+If you are interested in giving a talk, please contact [Kishen N Gowda][kishen]
+and [Renata Valieva][renata].
+
+ would like to give a talk about your research or your favorite theory paper. We also welcome students/faculty to present their favorite paper (need not be a co-author) with a friend/colleague and if you're looking for a partner to present please send us an email.
+ 
 <br>
 <br>
 
-### Teaching
-- F23: [CMSC451: Design and Analysis of Computer Algorithms][451F23]
-- S23: [CMSC858N, Scalable Parallel Algorithms and Data Structures][858NS23]
-- F22: [CMSC451: Design and Analysis of Computer Algorithms](https://www.cs.umd.edu/class/fall2022/cmsc451/)
+## Fall 2023 Series
+<hr/>
 
-### Publications
+### Upcoming Talks
 
 <ul>
-{% for paper in site.data.papers %}
-  {% include paper.html %}
+{% for talk in site.data.talks %}
+  {% include talk.html %}
 {% endfor %}
 </ul>
 
+### Past Talks
 
-### Ph.D. Thesis
+<!-- {% capture thirty_days_ago %}{{'now' | date: '%s' | minus: 2592000 }}{% endcapture %}
+{% for post in site.posts %}
+    {% capture post_date %}{{ post.posted_on | date: '%s' | plus: 0 }}{% endcapture %}
 
-<ul>
-{% for paper in site.data.thesis %}
-  {% include thesis.html %}
-{% endfor %}
-</ul>
+    {% if job_date > thirty_days_ago %}
+        {% include components/job.html job=job %}
+    {% endif %}
+{% endfor %} -->
 
-### Notes
-
-<ul>
-{% for paper in site.data.notes %}
-  {% include paper.html %}
-{% endfor %}
-</ul>
-
-### Older Theses/Proposals
-
-<ul>
-{% for paper in site.data.other %}
-  {% include paper.html %}
-{% endfor %}
-</ul>
-
-
+[kishen]: https://www.cs.umd.edu/people/kishen19
+[renata]: https://www.cs.umd.edu/people/rvalieva
+[theory-local]: https://mailman.cs.umd.edu/mailman/listinfo/theory-local
 [guy]: http://www.cs.cmu.edu/~guyb/
 [julian]: https://people.csail.mit.edu/jshun/
 [gm]: https://research.google/teams/graph-mining/

@@ -1,0 +1,26 @@
+<div class="talk">
+    <b>{{ talk.datetime }}</b><br>
+    {% if talk.title %}
+    <span class="talk-date">{{ talk.title }}</span><br>
+    {% endif %}
+
+    {% if talk.speaker %}
+    <b>Speaker: </b><a href="{{ talk.speaker_url | replace: 'BASE', site.base }}">{{ talk.speaker }}</a>
+    <br>
+    {% endif %}
+
+    {% if talk.venue %}
+    <b>Venue: </b>{{ talk.venue }}<br>
+    {% endif %}
+    
+    {% if talk.abstract %}
+    [<a href="{{ talk.abstract | replace: 'BASE', site.base }}">abstract</a>]
+    {% endif %}
+    {% if talk.bio %}
+    [<a href="{{ talk.bio | replace: 'BASE', site.base }}">bio</a>]
+    {% endif %}
+    {% if talk.abstract or talk.bio %}
+    <br>
+    {% endif %}
+    </div>
+    

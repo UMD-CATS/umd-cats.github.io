@@ -36,15 +36,20 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:32px;
+  font-weight:700;
   color: #1A5276
 }
 
 h2 {
-  color:#393939;
+  color:#1a426c;
 }
 
-h3, h4, h5, h6 {
+h3{
+  color:#4a4a4a;
+}
+
+h4, h5, h6 {
   color:#1A5276;
 }
 
@@ -110,6 +115,22 @@ img {
   max-width:100%;
 }
 
+
+.logo {
+  align-self: center;
+  max-width: 10%;
+  /* min-width: 100px; */
+  margin-right: 3%;
+  /* vertical-align: middle; */
+  /* border: 2px solid #39c; */
+  /* border-radius: 50%; */
+}
+
+.view{
+  float: left;
+  vertical-align: middle;
+}
+
 section {
   width:850px;
   float:left;
@@ -125,6 +146,28 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font:12pt/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 2% 5% 0;
+  padding-bottom: 2%;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.talk {
+  padding-bottom: 1.25rem;
+}
+
+.talk-date {
+  color: #1A5276;
+}
+
+.talk-title {
+  color: #39c;
 }
 
 footer {
@@ -152,7 +195,7 @@ footer {
   }
 
   header {
-    width: 270px;
+    /* width: 270px; */
     margin: 0 auto;
   }
 
@@ -168,11 +211,11 @@ footer {
   }
 
 
-  .headshot {
+  .logo {
     align-self: center;
-    max-width: 216px;
-    border: 2px solid #39c;
-    border-radius: 50%;
+    max-width: 15%;
+    /* border: 2px solid #39c; */
+    /* border-radius: 50%; */
   }
 
 }
@@ -183,11 +226,15 @@ footer {
   }
 
   header {
-    padding:0;
+    /* padding:0; */
   }
 
   pre, code {
     word-wrap:normal;
+  }
+
+  h1 {
+    font-size:28px;
   }
 }
 
@@ -196,11 +243,16 @@ footer {
     padding:15px;
   }
 
-  .headshot {
+  .logo {
     align-self: center;
-    max-width: 100%;
-    border: 2px solid #39c;
-    border-radius: 50%;
+    max-width: 25%;
+    padding-bottom: 2%;
+    /* border: 2px solid #39c; */
+    /* border-radius: 50%; */
+  }
+
+  h1 {
+    font-size:28px;
   }
 
 }
