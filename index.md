@@ -14,9 +14,6 @@ receive notifications (and Zoom meeting details) for the talks.
 
 If you are interested in giving a talk, please contact [Kishen N Gowda][kishen]
 and [Renata Valieva][renata].
-
- would like to give a talk about your research or your favorite theory paper. We also welcome students/faculty to present their favorite paper (need not be a co-author) with a friend/colleague and if you're looking for a partner to present please send us an email.
- 
 <br>
 <br>
 
