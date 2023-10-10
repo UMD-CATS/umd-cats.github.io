@@ -21,23 +21,27 @@ and [Renata Valieva][renata].
 <hr/>
 
 ### Upcoming Talks
+{% assign talks = site.data.talks | sort: 'datetime' %}
+{% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
 
 <ul>
-{% for talk in site.data.talks %}
-  {% include talk.html %}
+{% for talk in talks %}
+  {% capture talk_date %}{{ talk.datetime | date: '%s' | plus: 0 }}{% endcapture %}
+  {% if talk_date > today %}
+      {% include talk.html %}
+  {% endif %}
 {% endfor %}
 </ul>
 
 ### Past Talks
-
-<!-- {% capture thirty_days_ago %}{{'now' | date: '%s' | minus: 2592000 }}{% endcapture %}
-{% for post in site.posts %}
-    {% capture post_date %}{{ post.posted_on | date: '%s' | plus: 0 }}{% endcapture %}
-
-    {% if job_date > thirty_days_ago %}
-        {% include components/job.html job=job %}
-    {% endif %}
-{% endfor %} -->
+<ul>
+{% for talk in talks %}
+  {% capture talk_date %}{{ talk.datetime | date: '%s' | plus: 0 }}{% endcapture %}
+  {% if talk_date < today %}
+      {% include talk.html %}
+  {% endif %}
+{% endfor %}
+</ul>
 
 [kishen]: https://www.cs.umd.edu/people/kishen19
 [renata]: https://www.cs.umd.edu/people/rvalieva

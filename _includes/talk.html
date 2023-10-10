@@ -1,5 +1,6 @@
 <div class="talk">
-    <b>{{ talk.datetime }}</b><br>
+    {% capture end_time %}{{ talk.datetime | date: '%s' | plus: 3600 }}{% endcapture %}
+    <b>{{ talk.datetime | date: "[%a] %-d %B %Y @ %l:%M %P - " }} {{ end_time | date: "%l:%M %P" }}</b><br>
     {% if talk.title %}
     <span class="talk-date">{{ talk.title }}</span><br>
     {% endif %}
@@ -13,14 +14,14 @@
     <b>Venue: </b>{{ talk.venue }}<br>
     {% endif %}
     
-    {% if talk.abstract %}
-    [<a href="{{ talk.abstract | replace: 'BASE', site.base }}">abstract</a>]
+    <!-- {% if talk.abstract %}
+    [<a href="{{ talk.abstract_url | replace: 'BASE', site.base }}">abstract</a>]
     {% endif %}
     {% if talk.bio %}
-    [<a href="{{ talk.bio | replace: 'BASE', site.base }}">bio</a>]
+    [<a href="{{ talk.bio_url | replace: 'BASE', site.base }}">bio</a>]
     {% endif %}
     {% if talk.abstract or talk.bio %}
     <br>
-    {% endif %}
+    {% endif %} -->
     </div>
     
