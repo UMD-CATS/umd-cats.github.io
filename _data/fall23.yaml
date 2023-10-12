@@ -1,0 +1,80 @@
+
+-
+    speaker: "Magdalen Dobson"
+    speaker_url: https://csd.cmu.edu/people/doctoral-student/magdalen-dobson
+    venue: "IRB 4105"
+    datetime: 2023-11-10 10:00
+
+-
+    title: "Building Personalized Decision Models with Federated Human Preferences"
+    speaker: "Aadirupa Saha"
+    speaker_url: https://aadirupa.github.io/
+    venue: "Zoom"
+    datetime: 2023-11-09 14:00
+
+-
+    speaker: "Shangdi Yu"
+    speaker_url: https://yushangdi.github.io/
+    venue: "IRB 4105"
+    datetime: 2023-10-30 10:00
+
+-
+    speaker: "Eklavya Sharma"
+    speaker_url: https://sharmaeklavya2.github.io/
+    venue: "Zoom"
+    datetime: 2023-10-27 10:00
+
+-
+    title: "Near-Optimal Differentially Private k-Core Decomposition"
+    speaker: "George Li"
+    speaker_url: https://sites.google.com/view/gzli929/home
+    venue: "IRB 4105"
+    datetime: 2023-10-20 10:00
+
+-
+    title: "Ex-Post Group Fairness and Individual Fairness in Ranking"
+    speaker: "Sruthi Gorantla"
+    speaker_url: https://sites.google.com/view/sruthigorantla/home
+    venue: "IRB 3137"
+    datetime: 2023-10-10 12:15
+
+-
+    title: "Controlling Tail Risk in Online Ski-Rental"
+    speaker: "Michael Dinitz"
+    speaker_url: https://www.cs.jhu.edu/~mdinitz/
+    venue: "IRB 4105"
+    datetime: 2023-10-06 10:00
+
+-
+    title: "On (1+ε)-Approximate Flow Sparsifiers"
+    speaker: "Zihan Tan"
+    speaker_url: https://sites.google.com/view/zihantan
+    venue: "IRB 4105"
+    datetime: 2023-10-03 15:30
+
+-
+    title: "2-Approximation for Prize-Collecting Steiner Forest"
+    speaker: "Ali, Iman, Peyman, and Mohammad"
+    venue: "IRB 4105"
+    datetime: 2023-09-22 10:00
+
+-
+    title: "On a generalization of iterated and randomized rounding"
+    speaker: "Renata Valieva"
+    speaker_url: https://www.cs.umd.edu/people/rvalieva
+    venue: "IRB 0318 Gannon Auditorium"
+    datetime: 2023-09-15 10:00
+
+-
+    title: "Improved Bi-point Rounding Algorithms and a Golden Barrier for k-Median"
+    speaker: "Kishen N Gowda"
+    speaker_url: https://www.cs.umd.edu/people/kishen19
+    venue: "IRB 4105"
+    datetime: 2023-09-08 10:00
+
+-
+    title: "Memory as a lens to understand efficient learning and optimization"
+    speaker: "Vatsal Sharan"
+    speaker_url: https://vatsalsharan.github.io/
+    venue: "IRB 4105"
+    datetime: 2023-09-05 15:30

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Capital Area Theory Seminar
+semester: Fall 2023
 # redirect_to: "https://cs.umd.edu/~laxman/"
 ---
 
@@ -8,20 +9,29 @@ The Capital Area Theory Seminar (CATS) is a series of talks in
 Theoretical Computer Science, organized at the department of Computer 
 Science, University of Maryland, College Park. 
 
-This semester, the seminar meets on Fridays from 10 am to 11 am at IRB 4105. 
+<!-- Modify this -->
+This semester, the seminar meets on Fridays from 10 am to 11 am at IRB 4105
+(might differ sometimes, check the schedule below). 
 Please sign up for our [mailing list][theory-local] if you would like to 
 receive notifications (and Zoom meeting details) for the talks.
 
 If you are interested in giving a talk, please contact [Kishen N Gowda][kishen]
 and [Renata Valieva][renata].
+<!--  -->
+
+Links: {% include button.html url="https://calendar.google.com/calendar/u/0?cid=Y182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" %}
 <br>
 <br>
 
-## Fall 2023 Series
+<!-- Modify this -->
+<h1>Fall 2023 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a></span></h1>
+<!--  -->
 <hr/>
 
 ### Upcoming Talks
-{% assign talks = site.data.talks | sort: 'datetime' %}
+<!-- Modify this -->
+{% assign talks = site.data.fall23 | sort: 'datetime' %}
+<!--  -->
 {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
 
 <ul>
@@ -43,11 +53,8 @@ and [Renata Valieva][renata].
 {% endfor %}
 </ul>
 
+<!-- Modify this -->
 [kishen]: https://www.cs.umd.edu/people/kishen19
 [renata]: https://www.cs.umd.edu/people/rvalieva
 [theory-local]: https://mailman.cs.umd.edu/mailman/listinfo/theory-local
-[guy]: http://www.cs.cmu.edu/~guyb/
-[julian]: https://people.csail.mit.edu/jshun/
-[gm]: https://research.google/teams/graph-mining/
-[451F23]: {{ '/CMSC451-F23.html' | prepend: site.baseurl }}
-[858NS23]: {{ '/CMSC858N-S23.html' | prepend: site.baseurl }}
+<!--  -->

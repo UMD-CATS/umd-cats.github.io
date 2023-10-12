@@ -1,8 +1,8 @@
 <div class="talk">
     {% capture end_time %}{{ talk.datetime | date: '%s' | plus: 3600 }}{% endcapture %}
-    <b>{{ talk.datetime | date: "[%a] %-d %B %Y @ %l:%M %P - " }} {{ end_time | date: "%l:%M %P" }}</b><br>
+    {{ talk.datetime | date: "[%a] %-d %B %Y @ %l:%M %P - " }} {{ end_time | date: "%l:%M %P" }}<br>
     {% if talk.title %}
-    <span class="talk-date">{{ talk.title }}</span><br>
+    <b><span class="talk-date">{{ talk.title }}</span></b><br>
     {% endif %}
 
     {% if talk.speaker %}
@@ -14,14 +14,8 @@
     <b>Venue: </b>{{ talk.venue }}<br>
     {% endif %}
     
-    <!-- {% if talk.abstract %}
-    [<a href="{{ talk.abstract_url | replace: 'BASE', site.base }}">abstract</a>]
+    {% if talk.video %}
+    [<a href="{{ talk.video | replace: 'BASE', site.base }}">Video</a>]<br>
     {% endif %}
-    {% if talk.bio %}
-    [<a href="{{ talk.bio_url | replace: 'BASE', site.base }}">bio</a>]
-    {% endif %}
-    {% if talk.abstract or talk.bio %}
-    <br>
-    {% endif %} -->
-    </div>
+</div>
     
