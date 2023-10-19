@@ -1,3 +1,8 @@
+-
+    speaker: "Ama Koranteng"
+    speaker_url: https://amakora0.github.io/
+    venue: "IRB 3137"
+    datetime: 2023-11-17 10:00
 
 -
     speaker: "Magdalen Dobson"
@@ -19,6 +24,7 @@
     datetime: 2023-10-30 10:00
 
 -
+    title: "Fair Allocation of Indivisible Goods"
     speaker: "Eklavya Sharma"
     speaker_url: https://sharmaeklavya2.github.io/
     venue: "Zoom"
@@ -44,6 +50,7 @@
     speaker_url: https://www.cs.jhu.edu/~mdinitz/
     venue: "IRB 4105"
     datetime: 2023-10-06 10:00
+    video: https://youtu.be/DqMvFICj5As
 
 -
     title: "On (1+ε)-Approximate Flow Sparsifiers"
@@ -51,6 +58,7 @@
     speaker_url: https://sites.google.com/view/zihantan
     venue: "IRB 4105"
     datetime: 2023-10-03 15:30
+    video: https://youtu.be/p8BQpFbsVLA
 
 -
     title: "2-Approximation for Prize-Collecting Steiner Forest"

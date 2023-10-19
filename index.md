@@ -19,7 +19,7 @@ If you are interested in giving a talk, please contact [Kishen N Gowda][kishen]
 and [Renata Valieva][renata].
 <!--  -->
 
-Links: {% include button.html url="https://calendar.google.com/calendar/u/0?cid=Y182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" %}
+{% include button.html url="https://calendar.google.com/calendar/u/0?cid=Y182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" content="Add to Calendar" %} {% include button.html url="https://www.youtube.com/channel/UCfHfM0BLanICsjnzm_dCLXg" content="Youtube" %}
 <br>
 <br>
 
@@ -52,6 +52,8 @@ Links: {% include button.html url="https://calendar.google.com/calendar/u/0?cid=
   {% endif %}
 {% endfor %}
 </ul>
+
+<hr/>
 
 <!-- Modify this -->
 [kishen]: https://www.cs.umd.edu/people/kishen19

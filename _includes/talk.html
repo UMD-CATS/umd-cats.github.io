@@ -1,8 +1,8 @@
 <div class="talk">
     {% capture end_time %}{{ talk.datetime | date: '%s' | plus: 3600 }}{% endcapture %}
-    {{ talk.datetime | date: "[%a] %-d %B %Y @ %l:%M %P - " }} {{ end_time | date: "%l:%M %P" }}<br>
+    <span class="">{{ talk.datetime | date: "[%a] %-d %B %Y @ %l:%M %P - " }} {{ end_time | date: "%l:%M %P" }}</span><br>
     {% if talk.title %}
-    <b><span class="talk-date">{{ talk.title }}</span></b><br>
+    <b>{{ talk.title }}</b><br>
     {% endif %}
 
     {% if talk.speaker %}
