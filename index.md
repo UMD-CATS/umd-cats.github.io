@@ -60,6 +60,6 @@ and [Renata Valieva][renata].
 
 <!-- Modify this -->
 [kishen]: https://www.cs.umd.edu/people/kishen19
-[renata]: https://www.cs.umd.edu/people/rvalieva
+[renata]: https://www-math.umd.edu/people/all-directory/item/1642-rvalieva.html
 [theory-local]: https://mailman.cs.umd.edu/mailman/listinfo/theory-local
 <!--  -->
