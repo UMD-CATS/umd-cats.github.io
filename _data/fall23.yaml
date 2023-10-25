@@ -1,13 +1,19 @@
 -
+    speaker: "Da Qi"
+    speaker_url: https://www.daqichen.com/
+    venue: "IRB 4105 | Zoom"
+    datetime: 2023-12-08 10:00
+
+-
     speaker: "Ama Koranteng"
     speaker_url: https://amakora0.github.io/
-    venue: "IRB 3137"
+    venue: "IRB 3137 | Zoom"
     datetime: 2023-11-17 10:00
 
 -
     speaker: "Magdalen Dobson"
     speaker_url: https://csd.cmu.edu/people/doctoral-student/magdalen-dobson
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-11-10 10:00
 
 -
@@ -16,12 +22,15 @@
     speaker_url: https://aadirupa.github.io/
     venue: "Zoom"
     datetime: 2023-11-09 14:00
+    calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3VnbnZ2aXZoYnBzZmk5bHU4YXRldjltcXMgY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
 
 -
+    title: Framework for Parallel Hierarchical Agglomerative Clustering
     speaker: "Shangdi Yu"
     speaker_url: https://yushangdi.github.io/
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-10-30 10:00
+    calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NnQydWo0ZnVuMTFkaWZ0ODZxY3R2M2E0b20gY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
 
 -
     title: "Fair Allocation of Indivisible Goods"
@@ -29,26 +38,29 @@
     speaker_url: https://sharmaeklavya2.github.io/
     venue: "Zoom"
     datetime: 2023-10-27 10:00
+    calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N205ZXB1NmdjOGVlbjNjYWM1ZWxrdHBnM3AgY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
 
 -
     title: "Near-Optimal Differentially Private k-Core Decomposition"
     speaker: "George Li"
     speaker_url: https://sites.google.com/view/gzli929/home
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-10-20 10:00
+    calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Njg4Zjc1OTI2YjkzaTl0NmVyazJkdmNhaXUgY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
 
 -
     title: "Ex-Post Group Fairness and Individual Fairness in Ranking"
     speaker: "Sruthi Gorantla"
     speaker_url: https://sites.google.com/view/sruthigorantla/home
-    venue: "IRB 3137"
+    venue: "IRB 3137 | Zoom"
     datetime: 2023-10-10 12:15
+    calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MjVvMmVvZXMwOGt2dDZtdnQyMzE2cWwzaTQgY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
 
 -
     title: "Controlling Tail Risk in Online Ski-Rental"
     speaker: "Michael Dinitz"
     speaker_url: https://www.cs.jhu.edu/~mdinitz/
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-10-06 10:00
     video: https://youtu.be/DqMvFICj5As
 
@@ -56,33 +68,33 @@
     title: "On (1+ε)-Approximate Flow Sparsifiers"
     speaker: "Zihan Tan"
     speaker_url: https://sites.google.com/view/zihantan
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-10-03 15:30
     video: https://youtu.be/p8BQpFbsVLA
 
 -
     title: "2-Approximation for Prize-Collecting Steiner Forest"
     speaker: "Ali, Iman, Peyman, and Mohammad"
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-09-22 10:00
 
 -
     title: "On a generalization of iterated and randomized rounding"
     speaker: "Renata Valieva"
     speaker_url: https://www.cs.umd.edu/people/rvalieva
-    venue: "IRB 0318 Gannon Auditorium"
+    venue: "IRB 0318 Gannon Auditorium | Zoom"
     datetime: 2023-09-15 10:00
 
 -
     title: "Improved Bi-point Rounding Algorithms and a Golden Barrier for k-Median"
     speaker: "Kishen N Gowda"
     speaker_url: https://www.cs.umd.edu/people/kishen19
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-09-08 10:00
 
 -
     title: "Memory as a lens to understand efficient learning and optimization"
     speaker: "Vatsal Sharan"
     speaker_url: https://vatsalsharan.github.io/
-    venue: "IRB 4105"
+    venue: "IRB 4105 | Zoom"
     datetime: 2023-09-05 15:30

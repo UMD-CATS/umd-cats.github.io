@@ -1,6 +1,10 @@
 <div class="talk">
     {% capture end_time %}{{ talk.datetime | date: '%s' | plus: 3600 }}{% endcapture %}
-    <span class="">{{ talk.datetime | date: "[%a] %-d %B %Y @ %l:%M %P - " }} {{ end_time | date: "%l:%M %P" }}</span><br>
+    <span class="">{{ talk.datetime | date: "[%a] %-d %B %Y @ %l:%M %P - " }} {{ end_time | date: "%l:%M %P" }}</span>
+    {% if talk.calendar %}
+    [<a href="{{ talk.calendar | replace: 'BASE', site.base }}">Add to Calendar</a>]
+    {% endif %}
+    <br>
     {% if talk.title %}
     <b>{{ talk.title }}</b><br>
     {% endif %}

@@ -19,12 +19,12 @@ If you are interested in giving a talk, please contact [Kishen N Gowda][kishen]
 and [Renata Valieva][renata].
 <!--  -->
 
-{% include button.html url="https://calendar.google.com/calendar/u/0?cid=Y182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" content="Add to Calendar" %} {% include button.html url="https://www.youtube.com/channel/UCfHfM0BLanICsjnzm_dCLXg" content="Youtube" %}
+{% include button.html url="https://calendar.google.com/calendar/u/0?cid=Y182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" content="Add Calendar" %} {% include button.html url="https://www.youtube.com/channel/UCfHfM0BLanICsjnzm_dCLXg" content="Youtube" %}
 <br>
 <br>
 
 <!-- Modify this -->
-<h1>Fall 2023 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a></span></h1>
+<h1>Fall 2023 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLguvVsMLmA-By_ylJ5hGbeQceseMOS2CZ">[Youtube Playlist]</a></span></h1>
 <!--  -->
 <hr/>
 
