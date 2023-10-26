@@ -1,7 +1,7 @@
 name: Kishen N Gowda
 email: kishen19@cs.umd.edu
-url: http://kishen19.github.io
-baseurl: ""
+url: https://cats.cs.umd.edu/
+baseurl: "https://cats.cs.umd.edu/"
 
 markdown: kramdown
 kramdown:

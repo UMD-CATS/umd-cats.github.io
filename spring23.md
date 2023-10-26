@@ -2,7 +2,6 @@
 layout: default
 title: Capital Area Theory Seminar
 semester: Spring 2023
-# redirect_to: "https://cs.umd.edu/~laxman/"
 ---
 
 The Capital Area Theory Seminar (CATS) is a series of talks in 
