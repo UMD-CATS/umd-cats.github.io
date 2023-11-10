@@ -9,12 +9,15 @@
     speaker_url: https://amakora0.github.io/
     venue: "IRB 3137 | Zoom"
     datetime: 2023-11-17 10:00
+    calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3VnbnZ2aXZoYnBzZmk5bHU4YXRldjltcXMgY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
 
 -
-    speaker: "Magdalen Dobson"
+    title: "Nearest Neighbors from Theory to Practice"
+    speaker: "Magdalen Dobson Manohar"
     speaker_url: https://csd.cmu.edu/people/doctoral-student/magdalen-dobson
     venue: "IRB 4105 | Zoom"
     datetime: 2023-11-10 10:00
+    calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXByZnRmMTE4dTdlaWdrMzM5cDFkNnJhbWYgY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
 
 -
     title: "Building Personalized Decision Models with Federated Human Preferences"
@@ -31,6 +34,7 @@
     venue: "IRB 4105 | Zoom"
     datetime: 2023-10-30 10:00
     calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NnQydWo0ZnVuMTFkaWZ0ODZxY3R2M2E0b20gY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
+    video: https://youtu.be/ISN4Nn-nhug?si=Rty0afRXQCEs3TSP
 
 -
     title: "Fair Allocation of Indivisible Goods"
