@@ -57,8 +57,14 @@ and [Renata Valieva][renata].
 ## Previous Semesters
 - [Spring 2023]({{ '/spring23.html' | prepend: site.baseurl }})
 
+<br/>
+<hr/>
+<br/>
+[Web Accessibility][accessibility]
+
 <!-- Modify this -->
 [kishen]: https://www.cs.umd.edu/people/kishen19
 [renata]: https://www-math.umd.edu/people/all-directory/item/1642-rvalieva.html
 [theory-local]: https://mailman.cs.umd.edu/mailman/listinfo/theory-local
+[accessibility]: https://www.umd.edu/web-accessibility
 <!--  -->

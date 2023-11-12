@@ -51,10 +51,14 @@ and [Laxman Dhulipala][laxman].
 {% endfor %}
 </ul>
 
+
 <hr/>
+<br/>
+[Web Accessibility][accessibility]
 
 <!-- Modify this -->
 [sharmila]: https://trinity24.github.io/
 [laxman]: https://www.cs.umd.edu/~laxman/
 [theory-local]: https://mailman.cs.umd.edu/mailman/listinfo/theory-local
+[accessibility]: https://www.umd.edu/web-accessibility
 <!--  -->
