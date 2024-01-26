@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Capital Area Theory Seminar
-semester: Spring 2024
+semester: Fall 2023
 ---
 
 The Capital Area Theory Seminar (CATS) is a series of talks in 
@@ -9,13 +9,13 @@ Theoretical Computer Science, organized at the department of Computer
 Science, University of Maryland, College Park. 
 
 <!-- Modify this -->
-This semester, the seminar meets on Thursdays from 3:30 pm to 4:30 pm at IRB 3137
-(might differ sometimes, check the schedule below).
+This semester, the seminar meets on Fridays from 10 am to 11 am at IRB 4105
+(might differ sometimes, check the schedule below). 
 Please sign up for our [mailing list][theory-local] if you would like to 
 receive notifications (and Zoom meeting details) for the talks.
 
-If you are interested in giving a talk, please contact [Kishen N Gowda][kishen] (kishen19 AT umd DOT edu)
-and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
+If you are interested in giving a talk, please contact [Kishen N Gowda][kishen]
+and [Renata Valieva][renata].
 <!--  -->
 
 {% include button.html url="https://calendar.google.com/calendar/u/0?cid=Y182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" content="Add Calendar" %} {% include button.html url="https://www.youtube.com/channel/UCfHfM0BLanICsjnzm_dCLXg" content="Youtube" %}
@@ -23,13 +23,13 @@ and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
 <br>
 
 <!-- Modify this -->
-<h1>Spring 2024 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLguvVsMLmA-By_ylJ5hGbeQceseMOS2CZ">[Youtube Playlist]</a></span></h1>
+<h1>Fall 2023 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLguvVsMLmA-By_ylJ5hGbeQceseMOS2CZ">[Youtube Playlist]</a></span></h1>
 <!--  -->
 <hr/>
 
 ### Upcoming Talks
 <!-- Modify this -->
-{% assign talks = site.data.spring24 | sort: 'datetime' %}
+{% assign talks = site.data.fall23 | sort: 'datetime' %}
 <!--  -->
 {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
 
@@ -55,7 +55,6 @@ and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
 <hr/>
 
 ## Previous Semesters
-- [Fall 2023]({{ '/fall23.html' | prepend: site.baseurl }})
 - [Spring 2023]({{ '/spring23.html' | prepend: site.baseurl }})
 
 <br/>

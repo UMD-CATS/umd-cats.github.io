@@ -10,7 +10,12 @@
     {% endif %}
 
     {% if talk.speaker %}
-    <b>Speaker: </b><a href="{{ talk.speaker_url | replace: 'BASE', site.base }}">{{ talk.speaker }}</a>
+    <b>Speaker: </b>{% if talk.speaker_url %}<a href="{{ talk.speaker_url | replace: 'BASE', site.base }}">{% endif %}{{ talk.speaker }}{% if talk.speaker_url %}</a>{% endif %}
+    <br>
+    {% endif %}
+
+    {% if talk.affil %}
+    <b>Affiliation: </b><a href="{{ talk.affil | replace: 'BASE', site.base }}">{{ talk.affil }}</a>
     <br>
     {% endif %}
 
