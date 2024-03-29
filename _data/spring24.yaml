@@ -24,10 +24,11 @@
     venue: "IRB 3137 | Zoom"
     datetime: 2024-03-07 15:30
     calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGIxMjg0a2pyZTh0cXVydDFtMW5qZjljNzQgY182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGc&tmsrc=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com
+    video: https://youtu.be/_r3qCnbHd8g?si=46k3F3E3GxyBKhwc
 
 -
-    title: TBA
-    speaker: Jeff Gilliberti
+    title: Online fractional knapsack in the random order model 
+    speaker: Jeff Giliberti
     spearker_url: https://www.jgiliberti.me/
     affil: University of Maryland, College Park
     venue: "IRB 3137 | Zoom"
