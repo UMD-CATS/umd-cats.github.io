@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Capital Area Theory Seminar
-semester: Fall 2024
+semester: Spring 2024
 ---
 
 The Capital Area Theory Seminar (CATS) is a series of talks in 
@@ -9,7 +9,7 @@ Theoretical Computer Science, organized at the department of Computer
 Science, University of Maryland, College Park. 
 
 <!-- Modify this -->
-This semester, the seminar meets on Thursdays from 2:30 pm to 3:30 pm at IRB 3137
+This semester, the seminar meets on Thursdays from 3:30 pm to 4:30 pm at IRB 3137
 (might differ sometimes, check the schedule below).
 Please sign up for our [mailing list][theory-local] if you would like to 
 receive notifications (and Zoom meeting details) for the talks.
@@ -23,13 +23,13 @@ and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
 <br>
 
 <!-- Modify this -->
-<h1>Fall 2024 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLguvVsMLmA-By_ylJ5hGbeQceseMOS2CZ">[Youtube Playlist]</a></span></h1>
+<h1>Spring 2024 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLguvVsMLmA-By_ylJ5hGbeQceseMOS2CZ">[Youtube Playlist]</a></span></h1>
 <!--  -->
 <hr/>
 
 ### Upcoming Talks
 <!-- Modify this -->
-{% assign talks = site.data.fall24 | sort: 'datetime' %}
+{% assign talks = site.data.spring24 | sort: 'datetime' %}
 <!--  -->
 {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
 
@@ -55,7 +55,6 @@ and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
 <hr/>
 
 ## Previous Semesters
-- [Spring 2024]({{ '/spring24.html' | prepend: site.baseurl }})
 - [Fall 2023]({{ '/fall23.html' | prepend: site.baseurl }})
 - [Spring 2023]({{ '/spring23.html' | prepend: site.baseurl }})
 
@@ -67,6 +66,6 @@ and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
 <!-- Modify this -->
 [kishen]: https://www.cs.umd.edu/people/kishen19
 [renata]: https://www-math.umd.edu/people/all-directory/item/1642-rvalieva.html
-[theory-local]: https://mailman3.cs.umd.edu/postorius/lists/theory-local.cs.umd.edu/
+[theory-local]: https://mailman.cs.umd.edu/mailman/listinfo/theory-local
 [accessibility]: https://www.umd.edu/web-accessibility
 <!--  -->
