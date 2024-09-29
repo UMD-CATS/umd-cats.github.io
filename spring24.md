@@ -23,7 +23,7 @@ and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
 <br>
 
 <!-- Modify this -->
-<h1>Spring 2024 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLguvVsMLmA-By_ylJ5hGbeQceseMOS2CZ">[Youtube Playlist]</a></span></h1>
+<h1>Spring 2024 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://youtube.com/playlist?list=PLguvVsMLmA-DKnG_k6SPvpJfxVfVrvqts&si=BC13YVqgK_pV5_5_">[Youtube Playlist]</a></span></h1>
 <!--  -->
 <hr/>
 
