@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Capital Area Theory Seminar
-semester: Spring 2025
+semester: Fall 2024
 ---
 
 The Capital Area Theory Seminar (CATS) is a series of talks in 
@@ -14,8 +14,8 @@ This semester, the seminar meets on Thursdays from 2:30 pm to 3:30 pm at IRB 313
 Please sign up for our [mailing list][theory-local] if you would like to 
 receive notifications (and Zoom meeting details) for the talks.
 
-If you are interested in giving a talk, please contact [Juan Luque][juan] (jluque AT umd DOT edu)
-and [Sijing Yu][sijing] (sjyu AT umd DOT edu).
+If you are interested in giving a talk, please contact [Kishen N Gowda][kishen] (kishen19 AT umd DOT edu)
+and [Renata Valieva][renata] (rvalieva AT umd DOT edu).
 <!--  -->
 
 {% include button.html url="https://calendar.google.com/calendar/u/0?cid=Y182NmExZjJmNjU3MmMwNmI0ZDRkYjc2NmQ1MTNlZGZjNGJlYmY2YjJmNTJlMTg3NGY0NmYxNmExZWQ3YjBlODM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" content="Add Calendar" %} {% include button.html url="https://www.youtube.com/channel/UCfHfM0BLanICsjnzm_dCLXg" content="Youtube" %}
@@ -23,13 +23,13 @@ and [Sijing Yu][sijing] (sjyu AT umd DOT edu).
 <br>
 
 <!-- Modify this -->
-<h1>Spring 2025 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://youtube.com/playlist?list=PLguvVsMLmA-BIma7lcn9ljNekBixkeupF&si=lN7GH_dsoRjj0Cim">[Youtube Playlist]</a></span></h1>
+<h1>Fall 2024 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://youtube.com/playlist?list=PLguvVsMLmA-BIma7lcn9ljNekBixkeupF&si=lN7GH_dsoRjj0Cim">[Youtube Playlist]</a></span></h1>
 <!--  -->
 <hr/>
 
 ### Upcoming Talks
 <!-- Modify this -->
-{% assign talks = site.data.spring25 | sort: 'datetime' %}
+{% assign talks = site.data.fall24 | sort: 'datetime' %}
 <!--  -->
 {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
 
@@ -55,7 +55,6 @@ and [Sijing Yu][sijing] (sjyu AT umd DOT edu).
 <hr/>
 
 ## Previous Semesters
-- [Fall 2024]({{ '/fall24.html' | prepend: site.baseurl }})
 - [Spring 2024]({{ '/spring24.html' | prepend: site.baseurl }})
 - [Fall 2023]({{ '/fall23.html' | prepend: site.baseurl }})
 - [Spring 2023]({{ '/spring23.html' | prepend: site.baseurl }})
@@ -66,8 +65,8 @@ and [Sijing Yu][sijing] (sjyu AT umd DOT edu).
 [Web Accessibility][accessibility]
 
 <!-- Modify this -->
-[juan]: #
-[sijing]: #
+[kishen]: https://www.cs.umd.edu/people/kishen19
+[renata]: https://www-math.umd.edu/people/all-directory/item/1642-rvalieva.html
 [theory-local]: https://mailman3.cs.umd.edu/postorius/lists/theory-local.cs.umd.edu/
 [accessibility]: https://www.umd.edu/web-accessibility
 <!--  -->
