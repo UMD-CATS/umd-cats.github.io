@@ -9,7 +9,7 @@ Theoretical Computer Science, organized at the department of Computer
 Science, University of Maryland, College Park. 
 
 <!-- Modify this -->
-This semester, the seminar meets on Thursdays from 11:00 am to 12:00 pm at IRB 3137
+This semester, the seminar meets on Fridays from 11:00 am to 12:00 pm at IRB 3137
 (might differ sometimes, check the schedule below).
 Please sign up for our [mailing list][theory-local] if you would like to 
 receive notifications (and Zoom meeting details) for the talks.
