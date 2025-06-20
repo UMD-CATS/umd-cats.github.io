@@ -23,13 +23,13 @@ and [Sijing Yu][sijing] (sjyu AT umd DOT edu).
 <br>
 
 <!-- Modify this -->
-<h1>Spring 2025 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://youtube.com/playlist?list=PLguvVsMLmA-BIma7lcn9ljNekBixkeupF&si=lN7GH_dsoRjj0Cim">[Youtube Playlist]</a></span></h1>
+<h1>Summer 2025 Series <span><a href="https://calendar.google.com/calendar/embed?src=c_66a1f2f6572c06b4d4db766d513edfc4bebf6b2f52e1874f46f16a1ed7b0e836%40group.calendar.google.com&ctz=America%2FNew_York">[Calendar View]</a>&nbsp;<a href="https://youtube.com/playlist?list=PLguvVsMLmA-BIma7lcn9ljNekBixkeupF&si=lN7GH_dsoRjj0Cim">[Youtube Playlist]</a></span></h1>
 <!--  -->
 <hr/>
 
 ### Upcoming Talks
 <!-- Modify this -->
-{% assign talks = site.data.spring25 | sort: 'datetime' %}
+{% assign talks = site.data.summer25 | sort: 'datetime' %}
 <!--  -->
 {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
 
@@ -55,6 +55,7 @@ and [Sijing Yu][sijing] (sjyu AT umd DOT edu).
 <hr/>
 
 ## Previous Semesters
+- [Spring 2025]({{ '/spring25.html' | prepend: site.baseurl }})
 - [Fall 2024]({{ '/fall24.html' | prepend: site.baseurl }})
 - [Spring 2024]({{ '/spring24.html' | prepend: site.baseurl }})
 - [Fall 2023]({{ '/fall23.html' | prepend: site.baseurl }})
