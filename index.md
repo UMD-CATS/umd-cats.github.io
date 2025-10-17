@@ -29,7 +29,7 @@ and [Sijing Yu][sijing] (sjyu AT umd DOT edu).
 
 ### Upcoming Talks
 <!-- Modify this -->
-{% assign talks = site.data.fall24 | sort: 'datetime' %}
+{% assign talks = site.data.fall25 | sort: 'datetime' %}
 <!--  -->
 {% capture today %}{{ 'now' | date: '%s' }}{% endcapture %}
 
