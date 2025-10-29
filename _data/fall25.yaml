@@ -6,8 +6,15 @@
     datetime: 2025-09-05 11:00
 
 - 
-    title: "Fully Sparse Matrix Multiplication And Verification "
+    title: "Fully Sparse Matrix Multiplication And Verification"
     speaker: "Karthik Gajulapalli"
     affil:  Georgetown University
     venue: "IRB 5105 | Zoom"
     datetime: 2025-11-07 9:30
+
+-
+    title: "The Geometry of Fractional Stable Matchings"
+    speaker: "Nitya Raju"
+    affil: UMD
+    venue: "IRB 5105 | Zoom"
+    datetime: 2025-10-31 9:30
